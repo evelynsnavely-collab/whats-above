@@ -1,0 +1,6 @@
+bash
+
+cat /mnt/user-data/outputs/about.html > /mnt/user-data/outputs/final-deploy/about.html && wc -l /mnt/user-data/outputs/final-deploy/about.html
+Output
+
+496 /mnt/user-data/outputs/final-deploy/about.html
