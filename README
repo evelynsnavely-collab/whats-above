@@ -1,0 +1,175 @@
+# What's Above Me Now?
+
+A real-time space discovery experience that reveals the invisible infrastructure orbiting above you. Built with astronomy, design, and wonder in mind.
+
+---
+
+## 🌌 What Is This?
+
+**What's Above Me Now?** transforms your location into a gateway to space. In seconds, you'll discover:
+
+- **📡 The International Space Station** - Real-time position, altitude, distance from you
+- **🛰️ Visible Satellites** - Starlink, Iridium, Cosmos, and others passing overhead right now
+- **⭐ Constellations** - What's visible tonight with deep mythology, science, and discovery
+
+No approximations. No generic data. **Real, live data** tied to your actual location, updated as objects move across the sky.
+
+---
+
+## ✨ Why It's Cool
+
+### The Wow Factor
+Most people look up at the night sky and see stars. This app lets you see humanity's relationship with space:
+- The ISS carrying astronauts *right now*, 250 miles above you
+- Starlink satellites providing internet to remote villages
+- The same constellations that guided explorers and inspired myths thousands of years ago
+
+### Design Philosophy
+Built to feel as beautiful and intentional as the cosmos itself:
+- **Dark space aesthetic** - Deep blue, purple, black with neon cyan accents
+- **Smooth, premium animations** - Cubic-bezier easing makes everything feel alive
+- **Information architecture that respects users** - Cards cascade in, modals fade seamlessly
+- **Geolocation awareness** - Personalized to YOUR sky, not generic data
+- **Progressive disclosure** - Simple by default, deep when you want it
+
+---
+
+## 🚀 How It Works
+
+### Architecture
+**Single-file HTML/CSS/JavaScript** - Intentionally kept lean. No frameworks, no dependencies.
+
+### Key Features
+
+**Real-Time Data**
+- ISS Position from NASA's wheretheiss.at API
+- 5 satellite profiles (Starlink, Iridium, Cosmos)
+- 4 major constellations with visibility info
+
+**Geolocation**
+- Uses browser Geolocation API
+- Calculates what's actually visible from YOUR coordinates
+- Reverse geocodes to show city name
+- Falls back to NYC if permission denied
+
+**Interactive Information**
+- Click any satellite or constellation
+- Detailed descriptions and context
+- Historical and mythological information
+- Smooth, beautiful modals
+
+### Design Decisions
+
+**Color Palette** - Chosen to evoke actual space:
+- `#0a0e1a` - Deep space black
+- `#0f1a35` - Nebula blue
+- `#7c3aed` - Energy/technology (accent)
+- `#06b6d4` - Star light (accent)
+- `#ec4899` - Aurora/cosmic rays (accent)
+
+**Typography** - Every choice is intentional:
+- **Space Grotesk** - Bold, modern, distinctive headlines
+- **Instrument Sans** - Clean, readable body text
+
+**Animations** - All use cubic-bezier(0.34, 1.56, 0.64, 1) for:
+- Natural deceleration (not linear)
+- Slight bounce for premium feel
+- Consistency across entire app
+
+---
+
+## 🛠️ Technical Stack
+
+**Zero Dependencies** - Built with vanilla HTML, CSS, and JavaScript.
+
+### Browser APIs Used
+- Geolocation API - Get user's location
+- Fetch API - Real-time data from external APIs
+- DOM APIs - Dynamic content rendering
+- CSS Grid/Flexbox - Responsive layout
+- CSS Animations - Smooth transitions
+
+### External Resources
+- **ISS Tracker API** - wheretheiss.at (free, no auth)
+- **Reverse Geocoding** - OpenStreetMap Nominatim
+- **Fonts** - Google Fonts (Space Grotesk, Instrument Sans)
+- **Icons** - Font Awesome 6.4
+
+---
+
+## 🎯 Portfolio Quality
+
+This project demonstrates:
+
+**Design Excellence**
+- Visual identity is cohesive and intentional
+- Attention to micro-interactions and animations
+- Responsive design that works beautifully on all devices
+
+**Technical Skill**
+- Vanilla JS (no frameworks, clean code)
+- CSS mastery (complex animations, custom properties)
+- API integration (real-time data, geolocation)
+- Performance optimized (no unnecessary dependencies)
+
+**Creative Thinking**
+- Meaningful aesthetic choices evoke the actual cosmos
+- Thoughtful feature design (progressive disclosure)
+- Edge case handling (permission denied, API failures)
+- Polish in every detail (animations, feedback, UX)
+
+---
+
+## 🔮 What Could Be Next
+
+**Near-term:**
+- Weather integration (cloud cover, seeing conditions)
+- Dark sky site finder (where to go for best viewing)
+- Event calendar (upcoming eclipses, meteor showers)
+- Observation logging (track what you've seen)
+
+**Medium-term:**
+- Social integration (share discoveries with friends)
+- Photography mode (optimal angles and times)
+- Community feed (what others are discovering)
+- Gamification (badges, challenges, progression)
+
+**Long-term:**
+- Live observing sessions (video chat while stargazing)
+- Crowdsourced observations (citizen science)
+- AR navigation (walk to better dark skies)
+- Mobile apps (native iOS/Android)
+
+---
+
+## 📖 Key Learnings
+
+- **Aesthetic Intention** - Every color, animation, spacing choice should mean something
+- **Data as Story** - Real information is more compelling than fictional data
+- **Smooth Interactions** - Premium timing makes interfaces feel better
+- **Progressive Disclosure** - Simple first, complex on demand
+- **Geolocation Magic** - Personalizing content by location creates instant connection
+- **Modal Design** - Beautiful modals feel like discoveries, not interruptions
+- **Animation Sequencing** - Staggered timing creates rhythm and anticipation
+
+---
+
+## 🚀 Live Demo
+
+Visit: https://whatsinspace.netlify.app/
+
+---
+
+## 🙏 Acknowledgments
+
+- **ISS Data** - wheretheiss.at (NASA/ESA data)
+- **Reverse Geocoding** - OpenStreetMap Nominatim
+- **Fonts** - Google Fonts
+- **Icons** - Font Awesome
+- **Inspiration** - The night sky itself
+
+---
+
+**Built with curiosity, designed with intention, and a deep respect for the cosmos.**
+
+🌌 What's above you right now?
